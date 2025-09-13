@@ -21,8 +21,8 @@ screen.onkey(snake.down, "Down")
 screen.onkey(snake.left, "Left")       
 screen.onkey(snake.right, "Right")
 
-gama_is_on = True
-while gama_is_on: 
+game_is_on = True
+while game_is_on: 
     screen.update()
     time.sleep(0.1) 
     snake.move()
